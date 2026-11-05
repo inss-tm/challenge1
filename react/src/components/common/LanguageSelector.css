@@ -1,0 +1,37 @@
+.language-selector-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.55rem;
+  transition: all 0.2s ease;
+}
+
+.language-selector-wrapper:hover,
+.language-selector-wrapper:focus-within {
+  border-color: rgba(214, 51, 38, 0.5);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.language-icon {
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.language-select {
+  background: transparent;
+  color: #e2e8f0;
+  border: none;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  padding-right: 0.25rem;
+}
+
+.language-select option {
+  background: #111827;
+  color: #f1f5f9;
+}

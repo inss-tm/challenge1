@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "events": "Événements",
+    "chat": "Assistant IA",
+    "myEvents": "Mes Inscriptions",
+    "signIn": "Connexion",
+    "join": "Rejoindre l'ITC",
+    "logout": "Déconnexion",
+    "welcome": "Bienvenue"
+  },
+  "home": {
+    "badge": "SAISON ITC 2026",
+    "heroTitle": "Former les futurs leaders et innovateurs de la tech",
+    "heroSubtitle": "Rejoignez la première communauté étudiante de développeurs à Blida. Créez des projets réels, participez à des hackathons et propulsez votre carrière tech.",
+    "exploreEvents": "Explorer les événements",
+    "askAI": "Discuter avec l'assistant IA",
+    "featuredTitle": "Événements à la une",
+    "featuredSubtitle": "Ne manquez pas nos prochains ateliers pratiques et compétitions."
+  },
+  "events": {
+    "badge": "CALENDRIER ITC 2026",
+    "title": "Découvrez nos événements et ateliers",
+    "subtitle": "Ateliers pratiques, hackathons de 32 heures et conférences tech exclusives. Gratuit pour tous les membres ITC inscrits.",
+    "searchPlaceholder": "Rechercher par titre, sujet ou mot-clé...",
+    "category": "Catégorie",
+    "status": "Statut",
+    "all": "Tous",
+    "register": "S'inscrire",
+    "registered": "Inscrit",
+    "unregister": "Annuler l'inscription",
+    "viewDetails": "Voir les détails",
+    "noEvents": "Aucun événement ne correspond à vos critères de recherche.",
+    "resetFilters": "Réinitialiser les filtres",
+    "seatsLeft": "places restantes"
+  },
+  "eventDetail": {
+    "back": "Retour aux événements",
+    "dateTime": "Date et heure",
+    "location": "Lieu",
+    "capacity": "Capacité",
+    "registerNow": "S'inscrire à l'événement",
+    "cancelSeat": "Annuler mon inscription",
+    "agenda": "Programme de l'événement",
+    "speaker": "Intervenant / Organisateur",
+    "prerequisites": "Prérequis",
+    "share": "Partager l'événement"
+  },
+  "chat": {
+    "title": "Assistant IA ITC",
+    "subtitle": "Guide officiel IA de l'Information Technology Club",
+    "welcome": "Bonjour ! 👋 Je suis ITC Assist, votre guide IA officiel de l'ITC. Posez-moi des questions sur les ateliers, hackathons, inscriptions ou divisions du club !",
+    "placeholder": "Posez vos questions sur les ateliers, hackathons, inscriptions...",
+    "send": "Envoyer",
+    "clear": "Effacer la discussion",
+    "suggested": "Questions suggérées",
+    "thinking": "ITC Assist réfléchit..."
+  },
+  "auth": {
+    "signInTitle": "Bon retour",
+    "signInSubtitle": "Connectez-vous pour accéder à vos pass et aux ressources du club",
+    "joinTitle": "Rejoindre l'Information Technology Club",
+    "joinSubtitle": "Créez votre compte pour vous inscrire aux ateliers et hackathons",
+    "emailLabel": "Adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "nameLabel": "Nom complet",
+    "loginBtn": "Se connecter",
+    "registerBtn": "Créer un compte",
+    "noAccount": "Pas encore de compte ?",
+    "haveAccount": "Déjà membre de l'ITC ?",
+    "registerLink": "Rejoignez l'ITC dès aujourd'hui",
+    "loginLink": "Connectez-vous ici"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur lors du chargement des données",
+    "tryAgain": "Réessayer",
+    "offlineNotice": "Vous êtes hors ligne. Affichage des données en cache.",
+    "language": "Langue"
+  }
+}

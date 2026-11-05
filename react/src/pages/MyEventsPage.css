@@ -1,0 +1,182 @@
+/* My Events Page Styles */
+.my-events-page-root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.my-events-banner {
+  background: linear-gradient(135deg, #121316 0%, #1c1d25 100%);
+  color: #ffffff;
+  padding: 44px 0;
+  border-bottom: 2px solid var(--itc-red);
+  margin-bottom: 36px;
+}
+
+.member-profile-badge {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.member-big-avatar {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--itc-red), #121316);
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--border-light);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+.member-name-heading {
+  color: #ffffff;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.member-meta-text {
+  color: #9ca3af;
+  font-size: 0.88rem;
+}
+
+.member-meta-text strong {
+  color: #ffffff;
+  font-family: var(--font-mono);
+}
+
+.my-events-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-events-data-view {
+  width: 100%;
+  min-height: 300px;
+}
+
+.passes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 28px;
+}
+
+.event-pass-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.event-pass-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(214, 51, 38, 0.4);
+}
+
+.pass-strip {
+  background-color: #121316;
+  color: #ffffff;
+  padding: 6px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  border-bottom: 2px solid var(--itc-red);
+}
+
+.pass-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pass-badge-row {
+  display: flex;
+  gap: 8px;
+}
+
+.pass-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: var(--text-primary);
+}
+
+.pass-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 12px 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.pass-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.pass-meta-full {
+  grid-column: 1 / -1;
+}
+
+.pass-qr-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background-color: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--border-light);
+}
+
+.pass-qr-icon {
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+.pass-qr-code-text {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pass-qr-hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.pass-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+  .member-profile-badge {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .passes-grid {
+    grid-template-columns: 1fr;
+  }
+}

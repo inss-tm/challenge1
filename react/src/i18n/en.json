@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "chat": "AI Assistant",
+    "myEvents": "My Registrations",
+    "signIn": "Sign In",
+    "join": "Join ITC",
+    "logout": "Log Out",
+    "welcome": "Welcome"
+  },
+  "home": {
+    "badge": "ITC 2026 SEASON",
+    "heroTitle": "Browse events, register for workshops, and chat with our AI assistant",
+    "heroSubtitle": "Join Blida's premier student developer community. Build real-world projects, participate in hackathons, and accelerate your tech career.",
+    "exploreEvents": "Explore Events",
+    "askAI": "Chat with AI Assistant",
+    "featuredTitle": "Featured Upcoming Events",
+    "featuredSubtitle": "Don't miss out on our upcoming hands-on workshops and competitions."
+  },
+  "events": {
+    "badge": "ITC SCHEDULE 2026",
+    "title": "Browse Club Events & Workshops",
+    "subtitle": "Discover cutting-edge developer workshops, 32-hour hackathons, and exclusive tech talks. Free for all registered ITC members.",
+    "searchPlaceholder": "Search by title, topic, or keyword...",
+    "category": "Category",
+    "status": "Status",
+    "all": "All",
+    "register": "Register Now",
+    "registered": "Registered",
+    "unregister": "Cancel Registration",
+    "viewDetails": "View Details",
+    "noEvents": "No events found matching your filter criteria.",
+    "resetFilters": "Reset Filters",
+    "seatsLeft": "seats left"
+  },
+  "eventDetail": {
+    "back": "Back to Events",
+    "dateTime": "Date & Time",
+    "location": "Location",
+    "capacity": "Capacity",
+    "registerNow": "Register for Event",
+    "cancelSeat": "Cancel My Registration",
+    "agenda": "Event Agenda",
+    "speaker": "Featured Speaker / Organizer",
+    "prerequisites": "Prerequisites",
+    "share": "Share Event"
+  },
+  "chat": {
+    "title": "ITC AI Assistant",
+    "subtitle": "Official Information Technology Club AI guide",
+    "welcome": "Hello! 👋 I am ITC Assist, your official Information Technology Club AI guide. Ask me anything about our upcoming workshops, hackathons, registration policies, or club divisions!",
+    "placeholder": "Ask about workshops, hackathons, club policies...",
+    "send": "Send",
+    "clear": "Clear Chat",
+    "suggested": "Suggested Questions",
+    "thinking": "ITC Assist is thinking..."
+  },
+  "auth": {
+    "signInTitle": "Welcome Back",
+    "signInSubtitle": "Sign in to access your event passes and club resources",
+    "joinTitle": "Join Information Technology Club",
+    "joinSubtitle": "Create your account to register for workshops and hackathons",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "nameLabel": "Full Name",
+    "loginBtn": "Sign In",
+    "registerBtn": "Create Account",
+    "noAccount": "Don't have an account yet?",
+    "haveAccount": "Already an ITC member?",
+    "registerLink": "Join ITC today",
+    "loginLink": "Sign in here"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error Loading Data",
+    "tryAgain": "Try Again",
+    "offlineNotice": "You are currently offline. Showing cached data.",
+    "language": "Language"
+  }
+}

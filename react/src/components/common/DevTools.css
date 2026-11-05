@@ -1,0 +1,121 @@
+/* DevTools Styles */
+.devtools-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  font-family: var(--font-sans);
+}
+
+.devtools-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: all var(--transition-fast);
+}
+
+.devtools-badge:hover {
+  background-color: #222530;
+  transform: translateY(-2px);
+}
+
+.badge-failing {
+  background-color: var(--itc-red) !important;
+  color: #ffffff !important;
+  animation: pulseDot 1.5s infinite;
+}
+
+.devtools-panel {
+  width: 320px;
+  background-color: #121316;
+  color: #ffffff;
+  border: 1px solid #282a36;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.devtools-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background-color: #1a1c24;
+  border-bottom: 1px solid #282a36;
+}
+
+.devtools-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.devtools-close {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.devtools-close:hover {
+  color: #ffffff;
+}
+
+.devtools-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.devtools-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.devtools-label {
+  font-size: 0.78rem;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.devtools-code {
+  background-color: #0c0d10;
+  color: #60a5fa;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.devtools-hint {
+  font-size: 0.74rem;
+  color: #9ca3af;
+  line-height: 1.4;
+  border-top: 1px solid #222530;
+  padding-top: 8px;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .devtools-container {
+    bottom: 16px;
+    left: 16px;
+  }
+
+  .devtools-panel {
+    width: calc(100vw - 32px);
+  }
+}
